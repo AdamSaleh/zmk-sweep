@@ -56,7 +56,7 @@
                 &kp Q &kp W &kp E &kp R &kp T     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 
                 &kp A &kp S &kp D &kp F &kp G     &kp ESCAPE &kp RIGHT_ALT &kp RIGHT_GUI &kp RIGHT_CONTROL &kp BACKSLASH 
                 &kp Z &kp X &kp C &kp V &kp B     &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp SINGLE_QUOTE &kp MINUS &kp EQUAL 
-                &mo 4 &trans &trans &mo 2 
+                &trans &trans &trans &mo 2 
 		>;
 		};
 
@@ -65,17 +65,11 @@
 		bindings = <
 		&kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 
 		&kp F1 &kp LEFT_CONTROL &kp LEFT_GUI &kp LEFT_ALT &kp C_MUTE &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp F12 
-		&kp C_SLEEP &kp C_POWER &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp F20 &kp F20 &kp PAGE_DOWN &kp PAGE_UP &kp C_BRIGHTNESS_INC &kp C_BRIGHTNESS_DEC 
+		&kp C_SLEEP &kp C_POWER &kp C_VOLUME_DOWN &kp C_VOLUME_UP &trans &trans &kp PAGE_DOWN &kp PAGE_UP &kp C_BRIGHTNESS_INC &kp C_BRIGHTNESS_DEC 
 		&trans &trans &trans &trans
 		>;
 		};
 
-       // Mouse layer modifiers
-       		fnc_layer {
-		bindings = <
-                &trans &trans &trans &trans &trans &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &trans &trans &trans &trans KC_BTN1 KC_MS_L KC_MS_D KC_MS_U KC_MS_R &kp F20 &trans &trans &trans &trans KC_BTN2 &trans KC_WH_D KC_WH_U &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20
-		>;
-		};
 
 	};
 };
